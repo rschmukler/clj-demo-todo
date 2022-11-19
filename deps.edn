@@ -1,6 +1,8 @@
 {:paths ["src"]
  :deps
- {com.stuartsierra/component    {:mvn/version "1.1.0"}
+ {mount/mount                   {:mvn/version "0.1.16"}
   luminus/ring-undertow-adapter {:mvn/version "1.2.9"}
   teknql/wing                   {:git/url "https://github.com/teknql/wing"
-                                 :git/sha "b9d72eaead50c47987d618204ac0fbeb0f7dd236"}}}
+                                 :git/sha "b9d72eaead50c47987d618204ac0fbeb0f7dd236"}
+  metosin/malli                 {:mvn/version "0.9.2"}
+  metosin/reitit                {:mvn/version "0.5.18"}}}
